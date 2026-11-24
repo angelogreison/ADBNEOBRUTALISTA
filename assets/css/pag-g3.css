@@ -1,0 +1,23 @@
+/* Páginas G3: planes y horarios + contacto */
+.sub{font-size:clamp(1.5rem,3.6vw,2rem);margin:44px 0 16px}
+.slots{gap:10px}
+.slot-day{font-size:1.6rem;margin:18px 0 0;color:var(--ink)}
+.slot-day:first-child{margin-top:0}
+.slot>span:first-child{flex:1 1 220px}
+
+
+
+@media(min-width:768px){.slots{grid-template-columns:1fr 1fr;gap:10px 20px}.slot-day{grid-column:1/-1}}
+.slot-cta{margin-top:28px}
+.slot-cta .btn{margin:4px 0 8px}
+.contact-grid{display:grid;gap:20px}
+.cbox{background:#fff;border-top:5px solid var(--terracotta);padding:22px 20px 24px;display:flex;flex-direction:column;gap:8px}
+.cbox:nth-child(2){border-color:var(--olive-soft)}
+.cbox:nth-child(3){border-color:var(--petroleum)}
+.cbox h3{font-size:1.6rem}
+.cbox p{margin:0;font-size:.95rem}
+.cbox .big{font:800 1.1rem/1.3 var(--sans);color:var(--ink);overflow-wrap:anywhere}
+.cbox .btn,.cbox .more{margin-top:auto;align-self:flex-start}
+@media(min-width:768px){.contact-grid{grid-template-columns:repeat(3,1fr)}}
+.cmap{display:grid;gap:32px}
+@media(min-width:900px){.cmap{grid-template-columns:1fr 1fr;gap:64px;align-items:start}}

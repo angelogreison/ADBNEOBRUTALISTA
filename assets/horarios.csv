@@ -1,0 +1,18 @@
+dia,inicio,fin,clase,nota,estado
+Lunes,14:00,16:00,Modelado,,Disponible
+Lunes,16:00,18:00,Alfarería,,Disponible
+Lunes,18:30,20:30,Modelado,,Último cupo
+Lunes,18:30,20:30,Alfarería,con experiencia previa,Pocos cupos
+Martes,10:30,12:30,Alfarería,,Sin cupos
+Martes,18:30,20:30,Modelado,,Último cupo
+Martes,18:30,20:30,Alfarería,,Pocos cupos
+Miércoles,16:00,18:00,Modelado,,Disponible
+Miércoles,18:00,20:00,Modelado,,Disponible
+Jueves,15:30,17:30,Modelado,,Último cupo
+Jueves,18:00,20:00,Modelado,,Último cupo
+Viernes,14:00,16:00,Alfarería,,Disponible
+Viernes,18:30,20:30,Modelado,,Último cupo
+Sábado,11:00,13:00,Modelado,,Sin cupos
+Sábado,14:00,16:00,Modelado,,Pocos cupos
+PRECIO,,,Modelado,,82000
+PRECIO,,,Alfarería,,93500

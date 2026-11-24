@@ -1,0 +1,8 @@
+/* Estilos extra del grupo G2: formulario de piezas a pedido */
+.pedido{display:grid;gap:0;max-width:640px}
+.pedido .field textarea{width:100%;min-height:130px;padding:12px;border:1.5px solid #B9AA98;background:#fff;color:var(--ink);font:500 1rem/1.5 var(--sans);border-radius:0;-webkit-appearance:none;appearance:none;resize:vertical}
+.pedido .field textarea:focus{outline:3px solid var(--terracotta);outline-offset:0;border-color:var(--ink)}
+.pedido .field input,.pedido .field select{border-radius:0}
+.pedido .two{display:grid;gap:12px}
+.pedido-fine{margin-top:14px;font-size:.88rem;color:var(--text)}
+@media (min-width:640px){.pedido .two{grid-template-columns:1fr 1fr}}

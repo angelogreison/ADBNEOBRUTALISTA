@@ -1,0 +1,8 @@
+/* G5 · blog: índice y guías (se suma a site.css, sin tocarlo) */
+.byline{font:600 .78rem/1.5 var(--sans);letter-spacing:.04em;color:var(--text);margin:0 0 14px}
+.byline strong{color:var(--ink)}
+.postlist .card .kicker{font:700 .72rem/1.2 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--clay)}
+.postlist .card h3{font-size:1.5rem}
+.prose .tablewrap{margin:1.4em 0}
+.prose th,.prose td{padding:12px 14px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+.prose th{font-weight:700;color:var(--ink);background:var(--paper)}
